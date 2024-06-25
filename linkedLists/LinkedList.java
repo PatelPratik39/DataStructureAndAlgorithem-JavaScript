@@ -73,13 +73,26 @@ public class LinkedList {
         tail.next = null;
 //        decrement the length of the linked list
         length--;
-//        if length is zero then set head and tail null
+//        if length is zero, then set head and tail null
         if(length == 0){
             head = null;
             tail = null;
         }
 //        return temp
         return temp;
+    }
+
+//    prepend value
+    public void prepend(int value) {
+        Node newNode = new Node(value);
+        if(length == 0){
+            head = newNode;
+            tail = newNode;
+        } else {
+            newNode.next = head;
+            head = newNode;
+        }
+        length++;
     }
 
 
