@@ -10,7 +10,7 @@ function funChallenge(input) {
   }
   return a; // Time Complexity =O(1)
 }
-
+funChallenge()
 // Combining the Time Complexities: The constant time operations outside the loop contribute O(1) + O(1) + O(1) = O(1).
 // The loop runs n times (where n is the length of the input array), and within each iteration, 
 // there are constant time operations and a function call that we assume takes constant time. 
