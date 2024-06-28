@@ -5,15 +5,13 @@ function anotherFunChallenge(input) {
   let b = 10; // O(1)
   let c = 50; // O(1)
   //   below loop runs input time with 3 constants so O(n)+ O(n)+ O(n) =  3 O(n) that simplyfies O(n)
-  for (let i = 0; i < input; i++) {
-    // O(n)
+  for (let i = 0; i < input; i++) { // O(n)
     let x = i + 1; // O(n)
     let y = i + 2; // O(n)
     let z = i + 3; // O(n)
   }
   //   below loop runs input time with 2 constants so  O(n)+ O(n) =  2 O(n) that simplyfies O(n)
-  for (let j = 0; j < input; j++) {
-    // O(n)
+  for (let j = 0; j < input; j++) { // O(n)
     let p = j * 2; // O(n)
     let q = j * 2; // O(n)
   }
