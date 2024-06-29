@@ -14,6 +14,14 @@
 
 ```
 
+```
+# BigO rules
+ * Rule 1 = Worst Case -> O(1)+O(1)+O(n)+O(n)=O(2n+2)  -> O(n)
+ * Rule 2 = Drop Constant => Time Complexity will be O(n)
+ * Rule 3 = Different Term for inputs->  Time Complexity will be O(n) + O(m)
+ * Rule 4 = Drop Non Dominants -> O(n^2)
+```
+
 
 # LinkedList methods :
 ```chatinput
