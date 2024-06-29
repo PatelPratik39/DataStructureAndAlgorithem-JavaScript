@@ -21,7 +21,8 @@ Stacks: LIFO (Last In, First Out) structure.
 Queues: FIFO (First In, First Out) structure.
 Trees: Hierarchical structure with a root value and subtrees of children, represented as parent-child relationships.
 Graphs: Set of nodes connected by edges, used to represent networks.
-Why Data Structures Matter
+
+Why Data Structures Matter?
 Efficiency: Efficient data structures allow for faster data retrieval and storage.
 Scalability: Proper data structure choice helps in managing large datasets effectively.
 Implementation of Algorithms: Many algorithms are designed to work with specific data structures.
@@ -30,3 +31,26 @@ Databases: Use various data structures to index data for quick retrieval.
 Operating Systems: Use data structures like stacks for function call management, queues for process scheduling, and hash tables for memory management.
 Networking: Graphs are used to represent networks of communication.
 
+
+
+The mOst important questions in Data Structure is :
+
+1. How to Build One??
+Answer :  
+Arrays: 
+Linked Lists: 
+Stacks:
+Queues: 
+Trees: 
+Graphs: 
+
+2. How to Use it???
+
+Answer : 
+  
+Arrays:  ideal for storing a fixed number of elements, useful for the application where elements needs to be accessed by index
+Linked Lists: Ideal for frequent unsertiona deletion from database, also, its useful specially when the number of elements is not known in advance
+Stacks: Commonly used for parsing expressions and algorithems like Depth-First Structure, consider copy paste option, conside brower backward and forward page
+Queues: most effiecient for Breadth-First Search Algorithem. its suitable for order processing syastem like e-commerce application where we need to perform some steps to finalize order
+Trees: Most efficient for Hierarchical data such as file System, used in database indexes and network routing algorithms.
+Graphs:  Commonly used in algorithms like Dijkstra's and A* for shortest path finding. deal for representing networks, such as social networks or communication networks.
