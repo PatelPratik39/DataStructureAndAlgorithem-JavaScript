@@ -1,0 +1,30 @@
+1. What is Hashtable?
+    - Hash table is a data structure that allows for effecient data retrival, insertion, delete operation.
+    - Hash Table uses a technique called hashing to mapkeys to associate values.
+
+2. What is Collisions: in HashTable?
+    - A collection in Hahstable when a value has assigned 2 keys that time collesion occure.
+
+3. How to handler Collition in Hahstable?
+    - there are 2 ways to handle Collision in hashTable :  Chaining, Open Addressing
+        * Chaining : Each bucket is a linked list or another data structure where multiple key-value pairs can be stored.
+        * Open Addressing :  When a collision occurs, the hashtable probes for the next available bucket to store the key-value pair. 
+                        Techniques include linear probing, quadratic probing, and double hashing.
+
+# Hash Table Operation:
+
+# Insertion: 
+    - Calculate the hash code of the key using hash function.
+    - User the Hash code to find the index in the array
+    - if the bucket is empty, store thet key-value pair.
+    - if the bucket is occupied, handle the collision
+# Search
+    - Calculate the hash code of the key using hash function.
+    - User the Hash code to find the index in the array
+    - If the bucket is empty, the key is not in the hashtable.
+    - If the bucket is not empty, search through the linked list or data structure in the bucket to find the key.
+
+# Deletion
+    - If the bucket is empty, the key is not in the hashtable.
+    - If the bucket is not empty, search through the linked list or data structure in the bucket to find the key and remove it.
+
