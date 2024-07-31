@@ -3,6 +3,9 @@ find out 2 functions that finds the factorials of any number. One should be recu
 
 */
 
+
+//Time Complexity of recursion function => O(n)
+
 function findFactorialUsingRecursive(number) {
   if (number === 2) {
     return 2;
@@ -10,7 +13,7 @@ function findFactorialUsingRecursive(number) {
   return number * findFactorialUsingRecursive(number - 1);
 }
 
-function findFactorialUsingIterative(number) {
+function findFactorialUsingIterative(number) {     //O(n)
   let answer = 1;
   if (number === 2) {
     answer = 2;
